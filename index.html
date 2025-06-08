@@ -10,24 +10,26 @@
     <h1>ABC Technologies</h1>
     <h2>System Verification</h2>
 
-    <form class="dropdowns" action="#" method="post">
+    <div class="dropdowns">
       <label for="ram">RAM:</label>
-      <select id="ram" name="ram">
+      <select id="ram">
         <option value="4GB">4GB</option>
         <option value="8GB">8GB</option>
         <option value="16GB">16GB</option>
       </select>
 
       <label for="cpu">CPU:</label>
-      <select id="cpu" name="cpu">
+      <select id="cpu">
         <option value="2 Cores">2 Cores</option>
         <option value="4 Cores">4 Cores</option>
         <option value="8 Cores">8 Cores</option>
         <option value="12 Cores">12 Cores</option>
       </select>
+    </div>
 
-      <button type="submit">Submit</button>
-    </form>
+    <button onclick="EvaluateSysInfo()">Submit</button>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
