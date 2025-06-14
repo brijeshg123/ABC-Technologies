@@ -16,7 +16,7 @@ function EvaluateSysInfo() {
     button.style.color = "#ffffff";
   }
   // 5. Else if CPU < 4 Cores
-  else if (cpu === "2 Cores") {
+  else if (cpu > 2 ") {
     // Display “Insufficient Resources”
     button.textContent = "Insufficient Resources";
     // Change button to color red (visualization update)
