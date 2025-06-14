@@ -8,7 +8,7 @@ function EvaluateSysInfo() {
   const button = document.querySelector('button');
 
   // 4. If RAM < 4GB
-  if (ram === 4) {
+  if (ram < 4) {
     // Display “Insufficient Resources”
     button.textContent = "Insufficient Resources";
     // Change button to color red (visualization update)
